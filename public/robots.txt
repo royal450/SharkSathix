@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sharksathix.web.app/sitemap.xml

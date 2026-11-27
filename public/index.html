@@ -2,16 +2,184 @@
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="SharkSathix par loan, demat account, credit card aur tech safety simple Hindi me seekho.">
-<title>Loan, Demat aur Tech Seekho | SharkSathix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SharkSathix – Online Earning, Skills aur Asset Building Guide</title>
+<meta name="description" content="Online paisa kaise kamaye, video editing, graphic designing aur asset building – simple Hindi guides.">
+<link rel="canonical" href="https://sharksathix.web.app/">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<style>
+:root{--navy:#0b1f3a;--blue:#1565ff;--teal:#00c2a8;--soft:#f4f7fb}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1c2733;scroll-behavior:smooth}
+.navbar{background:var(--navy)}
+.brand-badge{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--blue),var(--teal));display:inline-grid;place-items:center;color:#fff;font-weight:800}
+.navbar .nav-link{color:#cfd9e8;font-weight:500}
+.navbar .nav-link:hover{color:var(--teal)}
+.btn-cta{background:linear-gradient(135deg,var(--blue),var(--teal));color:#fff;border:0;font-weight:600;border-radius:50px;padding:.7rem 1.5rem}
+.btn-cta:hover{color:#fff;filter:brightness(1.1)}
+.btn-ghost{border:2px solid rgba(255,255,255,.5);color:#fff;border-radius:50px;font-weight:600;padding:.65rem 1.5rem}
+.btn-ghost:hover{background:#fff;color:var(--navy)}
+.hero{background:radial-gradient(circle at 80% 0,#16407d,var(--navy) 62%);color:#fff;padding:4rem 0;text-align:center}
+.hero h1{font-weight:800;font-size:clamp(2rem,7vw,3.4rem);line-height:1.15}
+.hero h1 span{background:linear-gradient(90deg,#00e0c3,#5da0ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:#c3d0e4;font-size:1.1rem}
+.sbox{position:relative;max-width:560px;margin:1.6rem auto 0;text-align:left}
+.sbox input{border:0;border-radius:50px;padding:.95rem 1.2rem .95rem 3rem;font-size:1rem;box-shadow:0 8px 26px rgba(0,0,0,.25)}
+.sbox input:focus{box-shadow:0 8px 26px rgba(0,194,168,.45);outline:0}
+.sbox>i{position:absolute;left:1.1rem;top:50%;transform:translateY(-50%);color:#6a7888;font-size:1.1rem;z-index:3}
+.res{position:absolute;left:0;right:0;top:calc(100% + 8px);background:#fff;border-radius:16px;box-shadow:0 14px 34px rgba(0,0,0,.25);overflow:hidden;display:none;z-index:50}
+.res a{display:flex;align-items:center;gap:.7rem;padding:.8rem 1.1rem;color:#1c2733;text-decoration:none;border-bottom:1px solid #eef2f7}
+.res a:last-child{border:0}.res a:hover,.res a.on{background:#eef4ff}
+.res i{color:var(--blue)}.res small{color:#6a7888}
+.cl{display:block;color:#b8c6dc;text-decoration:none;padding:.35rem 0}
+.section{padding:3.5rem 0}
+.section-title{font-weight:800;font-size:clamp(1.6rem,5vw,2.2rem)}
+.topic{display:block;border-radius:18px;padding:1.5rem;background:#fff;box-shadow:0 6px 22px rgba(11,31,58,.08);text-decoration:none;color:inherit;height:100%;transition:.25s}
+.topic:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(21,101,255,.18);color:inherit}
+.topic h5{font-weight:700;margin:0 0 .3rem}
+.topic p{color:#6a7888;margin:0;font-size:.95rem}
+.ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;font-size:1.5rem;color:#fff;margin-bottom:1rem}
+.c1{background:linear-gradient(135deg,#1565ff,#4d8dff)}.c2{background:linear-gradient(135deg,#ff5f6d,#ff9a5a)}
+.c3{background:linear-gradient(135deg,#8e44ff,#c47dff)}.c4{background:linear-gradient(135deg,#00b894,#00d9a5)}
+.c5{background:linear-gradient(135deg,#ffb703,#ff8c00)}.c6{background:linear-gradient(135deg,#0b1f3a,#1565ff)}
+.alt{background:var(--soft)}
+.why i{font-size:2rem;color:var(--blue)}
+.cta{background:linear-gradient(135deg,var(--blue),var(--teal));color:#fff;border-radius:22px;padding:2.2rem 1.2rem;text-align:center}
+footer{background:var(--navy);color:#b8c6dc}
+footer h6{color:#fff;font-weight:700;margin-bottom:.9rem}
+footer a{color:#b8c6dc;text-decoration:none;display:block;padding:.25rem 0}
+footer a:hover{color:var(--teal)}
+.social a{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.1);margin-right:.4rem;color:#fff}
+.social a:hover{background:var(--teal);color:#fff}
+.fb{border-top:1px solid rgba(255,255,255,.12);font-size:.85rem}
+.to-top{position:fixed;right:16px;bottom:16px;width:44px;height:44px;border-radius:50%;background:var(--blue);color:#fff;border:0;display:none;z-index:99}
+@media(min-width:992px){.hero{padding:6rem 0}.section{padding:5rem 0}}
+</style>
 </head>
 <body>
-<header><nav class="navbar navbar-expand-lg navbar-dark"><div class="container"><a class="navbar-brand brand-wrap" href="index.html"><span class="brand-logo">S</span><span><span class="brand-name">SharkSathix</span><span class="brand-tag">Sahi product, simple guide</span></span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Menu kholo"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto mb-2 mb-lg-0"><li class="nav-item"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="loan-guide.html">Loan</a></li><li class="nav-item"><a class="nav-link" href="demat-account.html">Demat</a></li><li class="nav-item"><a class="nav-link" href="credit-card.html">Credit Card</a></li><li class="nav-item"><a class="nav-link" href="tech-guide.html">Tech Safety</a></li><li class="nav-item"><a class="nav-link" href="about.html">About</a></li><li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li></ul></div></div></nav></header>
-<main class="container py-4"><section class="hero mb-4"><span class="badge-soft">Sarkvission ka help platform</span><h1 class="display-6 mt-3">Sahi product choose karo, simple Hindi me samjho</h1><p class="lead">SharkSathix koi finance company nahi hai. Hum online earning, credit card, loan aur demat account ko step-by-step samjhate hain, taaki aap sahi product choose karke apply ya account open kar sakein.</p><div class="d-flex flex-wrap gap-2 mt-3"><a class="btn btn-brand" href="loan-guide.html">Loan guide dekho</a><a class="btn btn-outline-brand bg-white" href="demat-account.html">Demat guide dekho</a></div><p class="note mt-4 mb-0"><strong>Referral disclosure:</strong> Kuch links referral links ho sakte hain, jinse SharkSathix ko commission mil sakta hai. Ye personal financial advice nahi hai; apply karne se pehle official terms khud check karein.</p></section><section class="row g-3"><div class="col-md-6 col-lg-3"><article class="card h-100 p-3"><h2 class="h4">Loan Guide</h2><p>Personal loan, EMI, documents aur common mistakes simple language me.</p><a class="btn btn-brand mt-auto" href="loan-guide.html">Guide padho</a></article></div><div class="col-md-6 col-lg-3"><article class="card h-100 p-3"><h2 class="h4">Demat Account</h2><p>Demat account, documents, charges aur safety checks.</p><a class="btn btn-brand mt-auto" href="demat-account.html">Guide padho</a></article></div><div class="col-md-6 col-lg-3"><article class="card h-100 p-3"><h2 class="h4">Credit Card</h2><p>Bill, interest, credit score aur safe use ka basic guide.</p><a class="btn btn-brand mt-auto" href="credit-card.html">Guide padho</a></article></div><div class="col-md-6 col-lg-3"><article class="card h-100 p-3"><h2 class="h4">Tech Safety</h2><p>UPI, OTP, password aur online fraud se bachne ke steps.</p><a class="btn btn-brand mt-auto" href="tech-guide.html">Guide padho</a></article></div></section></main>
-<footer class="site-footer"><div class="container py-5"><div class="row g-4"><div class="col-md-4"><div class="brand-wrap mb-3"><span class="brand-logo">S</span><span><span class="brand-name">SharkSathix</span><span class="brand-tag">Sarkvission</span></span></div><p>SharkSathix koi finance company nahi hai. Hum logo ko online earning, credit card, loan aur demat account simple Hindi me samjhate hain.</p><p class="small">Referral links se commission mil sakta hai. Apply karne se pehle official terms khud check karein.</p></div><div class="col-md-2"><h3 class="footer-title h5">Guides</h3><ul class="list-unstyled"><li><a href="loan-guide.html">Loan Guide</a></li><li><a href="demat-account.html">Demat Account</a></li><li><a href="credit-card.html">Credit Card</a></li><li><a href="tech-guide.html">Tech Safety</a></li></ul></div><div class="col-md-3"><h3 class="footer-title h5">Company</h3><ul class="list-unstyled"><li><a href="about.html">About SharkSathix</a></li><li><a href="contact.html">Contact</a></li><li><a href="disclaimer.html">Disclaimer</a></li></ul></div><div class="col-md-3"><h3 class="footer-title h5">Trust</h3><ul class="list-unstyled"><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="sitemap.xml">Sitemap</a></li></ul><p class="small">Education only. Personal financial advice nahi.</p></div></div><div class="footer-bottom mt-4 pt-3 d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 SharkSathix. All rights reserved.</span><span>Made for simple Hindi finance help.</span></div></div></footer>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="/"><span class="brand-badge">S</span>SharkSathix</a>
+    <button class="navbar-toggler border-0" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-label="Menu"><span class="navbar-toggler-icon"></span></button>
+    <div class="offcanvas offcanvas-end text-bg-dark" id="menu" style="background:var(--navy)!important">
+      <div class="offcanvas-header"><h5 class="offcanvas-title">Menu</h5><button class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button></div>
+      <div class="offcanvas-body align-items-lg-center">
+        <ul class="navbar-nav mx-lg-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/onlineearn">Online Earning</a></li>
+          <li class="nav-item"><a class="nav-link" href="/videoediting">Video Editing</a></li>
+          <li class="nav-item"><a class="nav-link" href="/graphicdesign">Graphic Design</a></li>
+          <li class="nav-item"><a class="nav-link" href="/buildasset">Assets</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+        </ul>
+        <a href="#topics" class="btn btn-cta mt-3 mt-lg-0" data-bs-dismiss="offcanvas">Start Now</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container" style="max-width:760px">
+    <h1>Seekho. Kamao. <span>Asset Banao.</span></h1>
+    <p class="my-3">Online earning aur financial growth ke simple Hindi guides.</p>
+    <div class="sbox">
+      <i class="bi bi-search"></i>
+      <input id="q" type="search" class="form-control" placeholder="Topic search karo… (video editing, earning)" autocomplete="off" aria-label="Search">
+      <div class="res" id="res"></div>
+    </div>
+    <div class="d-grid d-sm-flex gap-2 justify-content-center mt-4">
+      <a href="/onlineearn" class="btn btn-cta btn-lg">Start Earning</a>
+      <a href="#topics" class="btn btn-ghost btn-lg">Explore Topics</a>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="topics">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">Topics</h2>
+    <div class="row g-3 g-lg-4">
+      <div class="col-12 col-md-6 col-lg-4"><a class="topic" href="/onlineearn"><div class="ic c1"><i class="bi bi-cash-coin"></i></div><h5>Online Earning</h5><p>Online kamai kaise shuru kare</p></a></div>
+      <div class="col-12 col-md-6 col-lg-4"><a class="topic" href="/videoediting"><div class="ic c2"><i class="bi bi-camera-reels"></i></div><h5>Video Editing</h5><p>Editing seekho, clients pao</p></a></div>
+      <div class="col-12 col-md-6 col-lg-4"><a class="topic" href="/graphicdesign"><div class="ic c3"><i class="bi bi-palette"></i></div><h5>Graphic Designing</h5><p>Design skill se income</p></a></div>
+      <div class="col-12 col-md-6 col-lg-4"><a class="topic" href="/buildasset"><div class="ic c4"><i class="bi bi-graph-up-arrow"></i></div><h5>Build Asset</h5><p>Income ko wealth banao</p></a></div>
+      <div class="col-12 col-md-6 col-lg-4"><a class="topic" href="/paisakaise"><div class="ic c5"><i class="bi bi-phone"></i></div><h5>Online Paisa Kaise Kamaye</h5><p>Safe aur real tareeke</p></a></div>
+      <div class="col-12 col-md-6 col-lg-4"><a class="topic" href="/loan-guide.html"><div class="ic c6"><i class="bi bi-bank"></i></div><h5>Loan, Demat &amp; Cards</h5><p>Sahi product choose karo</p></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="row g-4 text-center why">
+      <div class="col-12 col-md-4"><i class="bi bi-translate"></i><h6 class="fw-bold mt-2 mb-0">Simple Hindi</h6></div>
+      <div class="col-12 col-md-4"><i class="bi bi-list-check"></i><h6 class="fw-bold mt-2 mb-0">Step-by-Step</h6></div>
+      <div class="col-12 col-md-4"><i class="bi bi-shield-check"></i><h6 class="fw-bold mt-2 mb-0">No Fake Promises</h6></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:760px">
+    <div class="cta">
+      <h3 class="fw-bold mb-3">Naye Guides Email Par Paao</h3>
+      <form class="row g-2 justify-content-center" onsubmit="event.preventDefault();this.innerHTML='<p class=fw-bold>Thank you!</p>'">
+        <div class="col-12 col-md-7"><input type="email" required class="form-control form-control-lg" placeholder="Email"></div>
+        <div class="col-12 col-md-auto d-grid"><button class="btn btn-dark btn-lg">Subscribe</button></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="pt-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12 col-lg-4">
+        <a class="d-flex align-items-center gap-2 text-white fw-bold fs-5 mb-3" href="/"><span class="brand-badge">S</span>SharkSathix</a>
+        <p>Online earning aur financial knowledge simple Hindi me. Help chahiye to humse contact karo.</p>
+        <a class="cl" href="mailto:sarkvission@gmail.com"><i class="bi bi-envelope me-2"></i>sarkvission@gmail.com</a>
+        <a class="cl" href="https://wa.me/919104037184" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>WhatsApp Support: +91 91040 37184</a>
+      </div>
+      <div class="col-6 col-lg-2"><h6>Earning</h6>
+        <a href="/onlineearn">Online Earning</a><a href="/paisakaise">Paisa Kaise Kamaye</a><a href="/videoediting">Video Editing</a><a href="/graphicdesign">Graphic Design</a><a href="/buildasset">Build Asset</a></div>
+      <div class="col-6 col-lg-2"><h6>Finance</h6>
+        <a href="/loan-guide.html">Loan Guide</a><a href="/demat-account.html">Demat Account</a><a href="/credit-card.html">Credit Card</a><a href="/tech-guide.html">Tech Safety</a></div>
+      <div class="col-6 col-lg-2"><h6>Company</h6>
+        <a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/disclaimer.html">Disclaimer</a><a href="/sitemap.xml">Sitemap</a></div>
+      <div class="col-6 col-lg-2"><h6>Legal</h6>
+        <a href="/privacy.html">Privacy Policy</a><a href="/terms.html">Terms of Use</a></div>
+    </div>
+    <div class="fb mt-4 py-3 d-flex flex-column flex-md-row justify-content-between gap-1">
+      <span>© 2026 SharkSathix. All rights reserved.</span>
+      <span>Education only. Referral links se commission mil sakta hai.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="t" aria-label="Top"><i class="bi bi-arrow-up"></i></button>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+const t=document.getElementById('t');
+addEventListener('scroll',()=>{t.style.display=scrollY>400?'block':'none'});
+
+const T=[
+["Online Earning","/onlineearn","online earning start paisa income earn kamai how to start online earning","cash-coin"],
+["Video Editing","/videoediting","video editing start edit reels youtube capcut premiere how to start video editing","camera-reels"],
+["Graphic Designing","/graphicdesign","graphic design designing canva photoshop logo how to start graphic designing","palette"],
+["Build Asset","/buildasset","asset wealth invest sip stocks passive income how to build asset","graph-up-arrow"],
+["Online Paisa Kaise Kamaye","/paisakaise","paisa kaise kamaye mobile money earning online","phone"],
+["Loan Guide","/loan-guide.html","loan emi personal loan","bank"],
+["Demat Account","/demat-account.html","demat account trading stocks","bank"],
+["Credit Card","/credit-card.html","credit card score bill","credit-card"],
+["Tech Safety","/tech-guide.html","upi otp fraud password safety","shield-check"]];
+const q=document.getElementById('q'),r=document.getElementById('res');
+function find(v){v=v.trim().toLowerCase();if(!v)return[];return T.filter(t=>(t[0]+' '+t[2]).toLowerCase().includes(v)||v.split(/\s+/).every(w=>(t[0]+' '+t[2]).toLowerCase().includes(w)))}
+q.addEventListener('input',()=>{const m=find(q.value);
+r.innerHTML=m.length?m.map(t=>`<a href="${t[1]}"><i class="bi bi-${t[3]}"></i><span>${t[0]}</span></a>`).join(''):(q.value.trim()?'<a href="#topics"><small>Koi topic nahi mila – WhatsApp par puchho</small></a>':'');
+r.style.display=r.innerHTML?'block':'none'});
+q.addEventListener('keydown',e=>{if(e.key==='Enter'){const m=find(q.value);if(m.length)location.href=m[0][1]}});
+document.addEventListener('click',e=>{if(!e.target.closest('.sbox'))r.style.display='none'});
+t.onclick=()=>scrollTo({top:0,behavior:'smooth'});
+</script>
 </body>
 </html>
